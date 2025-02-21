@@ -1,0 +1,40 @@
+{
+  "name": "dotmatrix",
+  "author": "3DPrintedCat Industries",
+  "version": "1.3.0",
+  "keywords": ["pebble-app"],
+  "private": true,
+  "dependencies": {},
+  "pebble": {
+    "displayName": "Dotmatrix",
+    "uuid": "0d31b0e5-88bf-4364-a9c0-8c058257cb7e",
+    "sdkVersion": "3",
+    "enableMultiJS": true,
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk",
+      "diorite"
+    ],
+    "watchapp": {
+      "watchface": true
+    },
+    "messageKeys": [
+      "dummy"
+    ],
+    "resources": {
+      "media": [
+        {
+          "type": "font",
+          "name": "NDOT_45",
+          "file": "ndot.ttf"
+        },
+        {
+          "type": "font",
+          "name": "NDOT_20",
+          "file": "ndot.ttf"
+        }
+      ]
+    }
+  }
+}
